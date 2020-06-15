@@ -16,11 +16,10 @@
     margin-bottom: 10px;
 }
 .tim-title{
+    display-flex;
     margin-top: 30px;
     margin-bottom: 15px;
     text-align:center;
-/*     align-items:center; */
-    vertical-align:center;
     min-height:300px;
 }
 .tim-title>h4{
@@ -406,7 +405,7 @@ hr{
     border-right: none;
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
     .blurred-container .motto{
         font-size: 60px;
         width: 268px;
