@@ -405,7 +405,7 @@ hr{
     border-right: none;
 }
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     .blurred-container .motto{
         font-size: 60px;
         width: 268px;
