@@ -1,36 +1,27 @@
 .tim-container{
     position:relative;
     background: #ffffff;
+    min-width: 400px;
+    min-height:300px;
+    text-align: center;
 }
-.learn-more{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom:5rem;
-    text-decoration: underline;
-}
-.learn-more:hover{
-    text-decoration: underline;
-}
+
 .tim-row{
     margin-bottom: 10px;
 }
-.tim-title{
-    display-flex;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    text-align:center;
-    min-height:300px;
+.buffer{
+    height:70px;
 }
 .tim-title>h4{
     padding-bottom:10px;
-    padding-top:10px;
+    padding-top:40px;
 }
-hr{
-    border-color: #333333;
-    border-width:3px;
-    border-radius:5px;
-    max-width:65px;
+
+#btn-header{
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:50px;
 }
 .tim-typo{
     padding-left: 25%;
@@ -73,6 +64,7 @@ hr{
     background-attachment: fixed;
 }
 .main{
+
     background-color: #FFFFFF;
 }
 .navigation-example{
@@ -177,7 +169,7 @@ hr{
 }
 
 .parallax-pro{
-  width:100%;
+ /* width:100%;*/
   display: block;
   position: relative;
   background-color: #000;
@@ -185,7 +177,7 @@ hr{
 .parallax-pro > .img-src{
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -333,6 +325,7 @@ hr{
 
 .blurred-container{
   position:relative;
+  text-align: center;
   width:100%;
   height:400px;
   top:0;
@@ -341,7 +334,7 @@ hr{
 .blurred-container > .img-src{
     position:fixed;
     width:100%;
-    height:1000px;
+    height:100%;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center center;
@@ -382,17 +375,13 @@ hr{
     font-size: 76px;
     font-weight: 600;
     max-width: 640px;
-    margin:auto;
-
+    text-align:center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
     top: 100px;
     z-index: 3;
-
-    display: block;
     margin: 0 auto;
     position: relative;
-    width: 500px;
     height: 0;
 }
 .blurred-container .motto .border{
@@ -407,12 +396,13 @@ hr{
 
 @media (max-width: 768px){
     .blurred-container .motto{
-        font-size: 60px;
-        width: 268px;
-        top: 130px;
-        display:flex;
-        justify-content: center;
+        font-size: 40px;
+        width:400px;
+        text-align: center;
+     /*   width: 268px;
+        top: 130px;*/
     }
+
 }
 .main{
     background-color: #FFFFFF;
