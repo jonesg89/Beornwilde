@@ -1,8 +1,8 @@
 .tim-container{
     position:relative;
     background: #ffffff;
-    min-width: 400px;
-    min-height:300px;
+   /* min-width: 400px;
+    min-height:300px;*/
     text-align: center;
 }
 
@@ -396,10 +396,10 @@
 
 @media (max-width: 768px){
     .blurred-container .motto{
-        font-size: 40px;
+        font-size: 60px;
         width:400px;
         text-align: center;
-     /*   width: 268px;
+        /*width: 268px;
         top: 130px;*/
     }
 
