@@ -169,7 +169,7 @@
 }
 
 .parallax-pro{
- width:100%;
+ /* width:100%;*/
   display: block;
   position: relative;
   background-color: #000;
@@ -394,6 +394,18 @@
     border-right: none;
 }
 
+#perma-vid{
+    display: flex;
+    align-items: center;
+    height:700px;
+}
+#perma-text{
+    color:white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height:700px;
+}
 @media (max-width: 768px){
     .blurred-container .motto{
         font-size: 60px;
