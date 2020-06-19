@@ -397,6 +397,7 @@
 #perma-vid{
     display: flex;
     align-items: center;
+    justify-content: center;
     height:700px;
 }
 #perma-text{
@@ -408,8 +409,8 @@
 }
 @media (max-width: 768px){
     .blurred-container .motto{
-        font-size: 60px;
-        width:400px;
+        font-size: 50px;
+        width:100%;
         text-align: center;
         /*width: 268px;
         top: 130px;*/
@@ -428,3 +429,20 @@
     display: inline-block;
     margin-bottom: 25px;
 }
+  .column {
+    width: 100%;
+  }
+@media (max-width: 768px){
+    h1{
+        font-size: 30px;
+        width:100%;
+        text-align: center;
+    }
+@media (max-width: 768px){
+    #perma-vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    padding-top:100px;
+    }
