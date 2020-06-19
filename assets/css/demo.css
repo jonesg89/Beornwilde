@@ -444,5 +444,16 @@
     align-items: center;
     justify-content: center;
     height:100%;
-    padding-top:100px;
+    padding-top:30px;
     }
+    #perma-text{
+        height:100%;
+    }
+h1{
+    font-size: 30px;
+    width:100%;
+    text-align: center;
+    }
+#navbar-full {
+    height:30rem;
+}
