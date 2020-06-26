@@ -13,6 +13,8 @@
     height:70px;
 }
 .tim-title>h4{
+    font-family: 'Roboto', sans-serif;
+    color: #54595f;
     padding-bottom:10px;
     padding-top:40px;
 }
@@ -21,7 +23,7 @@
     position:absolute;
     right:0;
     left:0;
-    bottom:50px;
+    bottom:15px;
 }
 .tim-typo{
     padding-left: 25%;
@@ -400,24 +402,26 @@
     border-right: none;
 }
 .col-container{
+    height:100%;
+    text-align:center;
+    align-items: center;
+    margin-right:100px;
+    margin-left:100px;
     padding-top: 5em;
     padding-bottom:5em;
-    margin-right:50px;
-    margin-left:50px;
-    display:table;
 }
 .col-vid{
-    display:table-cell;
-    width:50%;
-    vertical-align: middle;
-    text-align: center;
+
 }
 .col-text{
-    display: table-cell;
-    width:35%;
     color:white;
-    text-align: center;
 }
+.col{
+    padding-left:25px;
+    padding-right:25px;
+    width:50%;
+}
+ 
 p{
     line-height: 1.6;
 }
@@ -428,11 +432,35 @@ p{
 }
 .resp-iframe{
     border: 0;
-    height: 60%;
-    left: 20%;
+    height: 70%;
+    left: 15%;
     position: absolute;
-    top: 20%;
-    width: 60%;
+    top: 15%;
+    width: 70%;
+}
+img{
+    height:75%;
+    width:75%;
+}
+.container-bot{
+    height:100%;
+    text-align:center;
+    align-items: center;
+    margin-right:100px;
+    margin-left:100px;
+}
+.btm{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+hr{
+    border-color: #F05F44;
+    border-width: 3px;
+    max-width: 200px;
+}
+h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #54595f;
 }
 @media (max-width: 768px){
     .blurred-container .motto{
@@ -442,6 +470,7 @@ p{
 
     }
 .main{
+    height:100%;
     background-color: #FFFFFF;
     position: relative;
 }
@@ -453,8 +482,15 @@ p{
     display: inline-block;
     margin-bottom: 25px;
 }
-  .col-vid, .col-text {
+  .col-vid, .col-text, {
+    float:left;
     display:block;
+    width: 100%;
+  }
+    .col{
+    display:block;
+    padding-right:0px;
+    padding-left: 0px;
     width: 100%;
   }
 .resp-iframe{
@@ -463,9 +499,6 @@ p{
     top: 12.5%;
     width: 75%;
 }
-    #col-text{
-        height:100%;
-    }
 h1{
     font-size: 30px;
     width:100%;
@@ -473,5 +506,13 @@ h1{
     }
 #navbar-full {
     height:30rem;
+}
+.btm{
+    width:100%;
+    padding-right:0px;
+    padding-left:0px;
+}
+.container-bot{
+    width:100%;
 }
 }
