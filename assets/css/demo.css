@@ -19,7 +19,7 @@
     padding-top:40px;
 }
 
-#btn-header{
+.btn-header{
     position:absolute;
     right:0;
     left:0;
@@ -386,17 +386,14 @@
     text-align:center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
-    top: 100px;
+    top: 160px;
     z-index: 3;
     margin: 0 auto;
     position: relative;
     height: 0;
 }
-.blurred-container .motto .border{
-/*    float: left;
-    border: 3px solid #FFFFFF;
-    padding: 0px 30px;
-    text-align: center;*/
+.motto{
+
 }
 .blurred-container .motto .no-right-border{
     border-right: none;
@@ -405,21 +402,31 @@
     height:100%;
     text-align:center;
     align-items: center;
-    margin-right:100px;
-    margin-left:100px;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
     padding-top: 5em;
     padding-bottom:5em;
+
 }
 .col-vid{
-
+    display: table-cell;
+    width:50%;
+    vertical-align: middle;
 }
 .col-text{
     color:white;
 }
+.row{
+    display: table;
+    width: 100%;
+}
 .col{
+    display: table-cell;
+    height: 100%;
     padding-left:25px;
     padding-right:25px;
-    width:50%;
+    vertical-align: bottom;
 }
  
 p{
@@ -427,29 +434,32 @@ p{
 }
 .iframe-wrap{
     overflow: hidden;
-    padding-top: 56.25%;/*set's height of container at 16:9 - iframe will resize and keep aspect ratio*/
     position: relative;
+    padding-top: 56.25%;/*set's height of container at 16:9 - iframe will resize and keep aspect ratio*/
 }
 .resp-iframe{
     border: 0;
-    height: 70%;
-    left: 15%;
+    height: 75%;
+    left: 12.5%;
+    top: 12.5%;
+    width: 75%;
     position: absolute;
-    top: 15%;
-    width: 70%;
-}
+} 
 img{
-    height:75%;
-    width:75%;
+    height:50%;
+    width:50%;
 }
 .container-bot{
+    padding-right:15vh;
+    padding-left: 15vh;
     height:100%;
     text-align:center;
     align-items: center;
-    margin-right:100px;
-    margin-left:100px;
+/*    margin-right:100px;
+    margin-left:100px;*/
 }
 .btm{
+    min-height: 100px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -482,15 +492,15 @@ h2{
     display: inline-block;
     margin-bottom: 25px;
 }
-  .col-vid, .col-text, {
-    float:left;
-    display:block;
+  .col-vid {
+    display: block;
     width: 100%;
   }
+.row-btm{
+    display: block;
+}
     .col{
     display:block;
-    padding-right:0px;
-    padding-left: 0px;
     width: 100%;
   }
 .resp-iframe{
@@ -504,15 +514,25 @@ h1{
     width:100%;
     text-align: center;
     }
+h2{
+ font-size: 30px;   
+}
 #navbar-full {
     height:30rem;
 }
 .btm{
     width:100%;
+    padding-bottom:40px;
     padding-right:0px;
     padding-left:0px;
 }
 .container-bot{
+    padding-right:15px;
+    padding-left: 15px;
     width:100%;
+}
+.col-container{
+    padding-right:5px;
+    padding-left:5px;
 }
 }
